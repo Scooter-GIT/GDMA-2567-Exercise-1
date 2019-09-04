@@ -62,6 +62,54 @@
 
 /* -- FORMS -- */ 
 
+form fieldset {
+	
+	border: 0 none;
+}
+
+input[type=submit] {
+	 
+    background:#ff8261; 
+    border:0 none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 20px 100px;
+   
+   
+}
+
+input[type=submit]:hover {
+	
+	background-color: #52cbf8;
+}
+
+input[type=text] {
+	
+    border:0 none;
+	width: 420px;
+	padding: 20px 10px;
+	margin-right: 10px;
+   
+}
+
+select {
+	
+    border:0 none;
+	width: 155px;
+	padding: 18px 10px;
+   
+}
+
+fieldset select:first-of-type {
+	
+	margin-right: 10px;
+}
+
+fieldset select:last-of-type {
+	
+	margin-right: 10px;
+}
 
 /* -- LISTS -- */ 
 
@@ -70,15 +118,76 @@
 
 /* -- MEDIA -- */ 
 
+.bg-blay {
+	
+	background-color: #e7f4f8;
+	margin: 40px 0;
+	padding: 50px 0;
+}
+
+.bg-peach {
+	
+	background-color: #fffbde;
+	margin: 40px 0;
+	padding: 50px 0;
+
+}
+
+#img-awesome {
+	
+	background-image: url("../img/hero-img.jpg");
+	height: 300px;
+}
 
 /* -- TABLES -- */ 
 
 
+
+tfoot td a {
+	
+	color: #fff;
+	background-color: #ff8261;
+	text-decoration: none;
+	padding: 10px 20px;
+	
+}
+
+tfoot td a:hover {
+	
+	background-color: #52cbf8;
+	
+}
+
 /* -- TYPOGRAPHY -- */ 
 
-#img-awesome {
+#img-awesome p {
 	
 	text-align: center;
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 100px 0;
+}
+
+
+
+h2 {
+	
+font-size: 18px;
+font-weight: normal;
+	
+}
+
+span {
+	
+	font-size: 30px;
+	font-weight: 800;
+	color: #556b72;
+}
+
+header {
+	
+	text-transform: uppercase;
 }
 
 /*--------------------------------------------------------------
@@ -104,16 +213,35 @@
 	overflow: auto;
 }
 
+
 header ul {
 	
 	text-align: right;
+	margin-bottom: 50px;
+	 
+	
 }
 
 header ul li {
 	
-	text-decoration: none;
+	
 	display: inline-block;
+	margin: 0 10px;
+	
 }
+
+header ul li a {
+	
+	text-decoration: none;
+	color: #9ba4b0;
+}
+
+header ul li a:hover {
+	
+	color: #52cbf8;
+}
+
+
 
 .col-1-2 {
 	
@@ -144,6 +272,20 @@ header ul li {
 
 /* -- BUTTONS -- */
 
+nav ul li a {
+	
+	background-color: #ff8261;
+	padding: 20px 25px;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+nav ul li a:hover {
+	
+	background-color: #52cbf8;
+	
+}
 
 /* -- NAVIGATION -- */
 
@@ -151,7 +293,23 @@ nav ul li {
 	
 	
 	display: inline-block;
+	
 }
+
+nav ul {
+	
+	padding: 0;
+	display: flex;
+}
+
+/* -- FOOTER -- */
+
+.bg-gray {
+	
+	background-color: #4c515b;
+	
+}
+
 
 /*--------------------------------------------------------------
 7.0 - UTILITIES
